@@ -1,0 +1,59 @@
+.box{
+    padding-top: 5%;
+}
+.v-box{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: rgb(126, 245, 126);
+}
+.v-box :hover{
+    background-color: black;
+    text-align: center;
+    color: azure;
+    cursor: pointer;
+}
+.v-box-false{
+    background-color: rgb(242, 35, 35);
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.m-box{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    background-color: rgb(126, 245, 126);
+    cursor: pointer;
+}
+.m-box h1{
+    font-size: 30px;
+}
+.m-box .box{
+    height: 60px;
+}
+.m-box :hover{
+    background-color: black;
+    text-align: center;
+    color: azure;
+    pointer-events: initial;
+    cursor: pointer;
+}
+.b-box{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    background-color: rgb(126, 245, 126);
+}
+.b-box :hover{
+    background-color: black;
+    text-align: center;
+    color: azure;
+    cursor: pointer;
+}
+
+.enter{
+    width: 1000px;
+    height: 50px; 
+    background-color: rgb(187, 186, 186);
+}
